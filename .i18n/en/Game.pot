@@ -1,45 +1,542 @@
 msgid ""
 msgstr "Project-Id-Version: Game v4.23.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-23\n"
+"POT-Creation-Date: 2026-05-03\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: en\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit"
 
-#: GameServer.RpcHandlers
-msgid "level completed with warnings… 🎭"
+#. §0: `identity_law2:(a∧True)↔a`
+#. §1: ` a `
+#. §2: `a∧True`
+#: Game.Doc.theo
+msgid "# 同一律2\n"
+"### §0\n"
+"\n"
+"同一律2，可以在§1和§2之间转换。"
 msgstr ""
 
-#: Game.Levels.DemoWorld.L01_HelloWorld
-msgid "Hello World"
+#: Game.Levels.thirdworld.L11_law_11
+msgid "设A(x)，B(x)含自由出现的个体变项x，则(∀ x, ((A x) ∧ (B x))) ↔ ((∀ x, A x) ∧ (∀ x, B x))."
 msgstr ""
 
-#: Game
-msgid "This text appears on the starting page where one selects the world/level to play.\n"
-"You can use **markdown**."
-msgstr ""
-
-#: GameServer.RpcHandlers
-msgid "level completed! 🎉"
-msgstr ""
-
-#: Game
-msgid "Hello World Game"
-msgstr ""
-
-#. §0: `«{g}»`
-#: Game.Levels.DemoWorld.L01_HelloWorld
-msgid "You should use §0 now."
+#: Game.Levels.FirstWorld.L10_distribute_law
+msgid "分配律分为析取对合取，和合取对析取的两种."
 msgstr ""
 
 #: GameServer.RpcHandlers
 msgid "intermediate goal solved! 🎉"
 msgstr ""
 
+#: Game.Levels.secondworld.L10_destructive_dilemma2
+msgid "破坏性二难"
+msgstr ""
+
+#: Game
+msgid "欢迎来到离散数学游戏的世界，在本世界你将通过对不同世界的闯关逐渐习得离散数学\n"
+"相关的知识，大致范围涵盖了命题，一阶逻辑，集合论，代数结构，图论等部分的重要\n"
+"定理。本世界使用Lean4实现，在形式化证明的过程中你将加强对Lean的掌握并且加深\n"
+"对离散数学知识的掌握。\n"
+"本世界分为三种模式，分别是闯关模式，全关卡模式，全关卡全策略模式，你可以自由\n"
+"挑选游玩。"
+msgstr ""
+
+#: Game.Levels.ThirdWorld
+msgid "本世界会构造12个一阶逻辑等值式"
+msgstr ""
+
+#: Game.Levels.sixthworld.L08_law_8
+msgid "sumRange_mul_const"
+msgstr ""
+
+#: Game.Levels.secondworld.L04_modus_tollens
+msgid "接下来是拒取式的证明."
+msgstr ""
+
+#. §0: `De_Morgan_laws2:¬(a ∧ b) ↔ ¬a ∨ ¬b`
+#: Game.Doc.theo
+msgid "# 德摩根律2\n"
+"### §0\n"
+"\n"
+"应用德摩根律可以将否分配到括号中或者将否提取出来。"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L15_zero_law2
+msgid "下来零律的第二种，任意命题和假析取会得到假，假可以推出和任意命题的析取."
+msgstr ""
+
+#: Game.Levels.Forthworld.L03_law_3
+msgid "集合的交和并也满足分配律"
+msgstr ""
+
+#: Game.Levels.FifthWorld
+msgid "fifthworld"
+msgstr ""
+
+#. §0: `constructive_dilemma_special :  ((a → b) ∧ (¬a → b)) → b`
+#. §1: `a→b`
+#. §2: `¬a → b`
+#. §3: `b`
+#: Game.Doc.theo
+msgid "# 构造性二难（特殊形式）\n"
+"### §0\n"
+"\n"
+"已知命题§1和§2成立,则§3成立，这就是构造性二难。"
+msgstr ""
+
+#: Game.Levels.sixthworld.L10_law_10
+msgid "regular_graph_edge_count"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L01_communtative
+msgid "析取的交换律已经证明好了，接下来是对合取的交换律的证明."
+msgstr ""
+
+#: Game.Levels.FirstWorld.L18_pro_con_law
+msgid "归谬论，即((a → b) ∧ (a → ¬b)) ↔ ¬a，\n"
+"由a得到两个矛盾的命题，则a为假，从另一个方向来看，两个蕴含均已假为前件，必然为真."
+msgstr ""
+
+#: Game.Levels.FirstWorld.L17_identity_law2
+msgid "至此同一律证明完毕."
+msgstr ""
+
+#: Game.Levels.Forthworld.L13_law_13
+msgid "两个元素按一定顺序组成的二元组叫有序对，形如<x,y>，对于集合A，B\n"
+"分别用他们的元素构成有序对，这些有序对的集合为A，B的笛卡尔积，记作A×B,笛卡尔积对交并\n"
+"满足分配律，这里我们证明并的分配律"
+msgstr ""
+
+#. §0: `distribute_law1 :  (a∨(b∧c))↔((a∨b)∧(a∨c))`
+#. §1: `(a∨(b∧c))`
+#. §2: `((a∨b)∧(a∨c))`
+#: Game.Doc.theo
+msgid "# 分配律1\n"
+"### §0\n"
+"\n"
+"析取对合取存在分配律，即§1和§2可以互相转换"
+msgstr ""
+
+#: Game.Levels.secondworld.L07_trans_eq
+msgid "等价三段论"
+msgstr ""
+
+#. §0: `hypothetical_syllogism : ((a∨b)∧¬b)→a`
+#. §1: `a→b`
+#. §2: `b→c`
+#. §3: `a→c`
+#: Game.Doc.theo
+msgid "# 假言三段论\n"
+"### §0\n"
+"\n"
+"已知两个命题§1和§2成立,利用假言三段论可以得出§3。"
+msgstr ""
+
+#: Game.Levels.FifthWorld.L03_law_3
+msgid "pow3"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L01_communtative
+#: Game.Levels.FirstWorld.L02_communtative2
+#: Game.Levels.FirstWorld.L03_De_Morgan_laws
+#: Game.Levels.FirstWorld.L04_no_contradiction
+#: Game.Levels.FirstWorld.L05_eq
+#: Game.Levels.FirstWorld.L06_idempotent_law
+#: Game.Levels.FirstWorld.L07_idempotent_law2
+#: Game.Levels.FirstWorld.L08_associative_law
+#: Game.Levels.FirstWorld.L09_associative_law2
+#: Game.Levels.FirstWorld.L10_distribute_law
+#: Game.Levels.FirstWorld.L11_distribute_law2
+#: Game.Levels.FirstWorld.L12_absorption_law
+#: Game.Levels.FirstWorld.L13_absorption_law2
+#: Game.Levels.FirstWorld.L14_zero_law
+#: Game.Levels.FirstWorld.L15_zero_law2
+#: Game.Levels.FirstWorld.L16_identity_law
+#: Game.Levels.FirstWorld.L17_identity_law2
+#: Game.Levels.FirstWorld.L18_pro_con_law
+msgid "communtative law"
+msgstr ""
+
+#: Game.Levels.thirdworld.L01_law_1
+msgid "至此目标变成了A x,可以再次构造¬p和p两种假设，即Ax，¬Ax"
+msgstr ""
+
+#. §0: `absorb_law1:(a∨(a∧b))↔a`
+#. §1: `(a∨(a∧b))`
+#. §2: `a`
+#: Game.Doc.theo
+msgid "# 吸收律1\n"
+"### §0\n"
+"\n"
+"吸收律，可以在§1和§2之间转换。"
+msgstr ""
+
+#: Game.Levels.secondworld.L06_hypothetical_syllogism
+msgid "假言三段论"
+msgstr ""
+
+#: Game.Levels.secondworld.L06_hypothetical_syllogism
+msgid "这样便是假言三段论."
+msgstr ""
+
+#. §0: `idempotent_law_and : p↔(p∨p)`
+#. §1: `p`
+#. §2: `p∧p`
+#: Game.Doc.theo
+msgid "# 幂等律（合取）\n"
+"### §0\n"
+"\n"
+"任意命题§1可以转换成§2，也可以转换回去，这就是幂等律（合取）"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L03_De_Morgan_laws
+msgid "¬a可以看成a→False，可以当成一个函数使用"
+msgstr ""
+
+#: Game.Levels.sixthworld.L09_law_9
+msgid "odd_degree_count_even将证明所有顶点度数之和为偶数。"
+msgstr ""
+
+#: Game.Levels.FirstWorld
+msgid "第一个世界是对等价等值式的证明构造."
+msgstr ""
+
+#: Game.Levels.secondworld.L07_trans_eq
+msgid "这样便是等价三段论."
+msgstr ""
+
+#: Game.Levels.thirdworld.L04_law_4
+msgid "Classical.choice会从∀x中选出一个x"
+msgstr ""
+
+#. §0: `eq_not:(a ↔ b) ↔ (¬a ↔ ¬b)`
+#. §1: `(a ↔ b)`
+#. §2: `(¬a ↔ ¬b)`
+#: Game.Doc.theo
+msgid "# 等价否定等值式\n"
+"### §0\n"
+"\n"
+"§1和§2可以转换，就是等价否定等值式。"
+msgstr ""
+
+#: Game.Levels.thirdworld.L03_law_3
+msgid "Ax含自由变元x，而B不含x的自由出现，\n"
+"则(∀x,((A x)∨B)) ↔ ((∀ x, A x)∨B)."
+msgstr ""
+
+#: Game.Levels.sixthworld.L04_law_4
+msgid "sumRange_zero'"
+msgstr ""
+
+#: Game.Levels.FifthWorld.L02_law_2
+msgid "在群G中，对于G中元素a,b，他们运算（a∘b）⁻¹等于b⁻¹∘a⁻¹"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L13_absorption_law2
+msgid "至此吸收律证明完毕."
+msgstr ""
+
+#: Game.Levels.Forthworld.L04_law_4
+msgid "同一律"
+msgstr ""
+
+#: Game.Levels.Forthworld.L06_law_6
+msgid "矛盾律"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L05_eq
+msgid "Iff.intro可以将两个不同方向的蕴含变成等价"
+msgstr ""
+
 #: Game
 msgid "You should use this game as a template for your own game and add your own levels."
+msgstr ""
+
+#. §0: `contraposition_iff:(a → b) ↔ (¬b → ¬a)`
+#. §1: `(a → b)`
+#. §2: `(¬b → ¬a)`
+#: Game.Doc.theo
+msgid "# 假言易位\n"
+"### §0\n"
+"\n"
+"§1和§2可以转换，就是假言易位。"
+msgstr ""
+
+#: Game.Levels.thirdworld.L04_law_4
+msgid "Ax含自由变元x，而B不含x的自由出现，\n"
+"则(∀x,((A x)∧B)) ↔ ((∀ x, A x)∧B)."
+msgstr ""
+
+#: Game.Levels.FirstWorld.L07_idempotent_law2
+msgid "幂等律，即一个命题可以转换成同一命题的析取."
+msgstr ""
+
+#: Game.Levels.FirstWorld
+msgid "Firstworld"
+msgstr ""
+
+#: Game.Levels.secondworld.L03_modus_ponens
+msgid "至此假言推理证明完毕."
+msgstr ""
+
+#: Game.Levels.thirdworld.L01_law_1
+#: Game.Levels.thirdworld.L02_law_2
+#: Game.Levels.thirdworld.L03_law_3
+#: Game.Levels.thirdworld.L04_law_4
+#: Game.Levels.thirdworld.L05_law_5
+#: Game.Levels.thirdworld.L06_law_6
+#: Game.Levels.thirdworld.L07_law_7
+#: Game.Levels.thirdworld.L08_law_8
+#: Game.Levels.thirdworld.L09_law_9
+#: Game.Levels.thirdworld.L10_law_10
+#: Game.Levels.thirdworld.L11_law_11
+#: Game.Levels.thirdworld.L12_law_12
+#: Game.Levels.Forthworld.L01_law_1
+#: Game.Levels.Forthworld.L02_law_2
+#: Game.Levels.Forthworld.L03_law_3
+#: Game.Levels.Forthworld.L04_law_4
+#: Game.Levels.Forthworld.L05_law_5
+#: Game.Levels.Forthworld.L06_law_6
+#: Game.Levels.Forthworld.L07_law_7
+#: Game.Levels.Forthworld.L08_law_8
+#: Game.Levels.Forthworld.L09_law_9
+#: Game.Levels.Forthworld.L10_law_10
+#: Game.Levels.Forthworld.L11_law_11
+#: Game.Levels.Forthworld.L12_law_12
+#: Game.Levels.Forthworld.L13_law_13
+#: Game.Levels.FifthWorld.L01_law_1
+#: Game.Levels.FifthWorld.L02_law_2
+#: Game.Levels.FifthWorld.L03_law_3
+#: Game.Levels.FifthWorld.L04_law_4
+#: Game.Levels.FifthWorld.L05_law_5
+#: Game.Levels.FifthWorld.L06_law_6
+#: Game.Levels.FifthWorld.L07_law_7
+#: Game.Levels.FifthWorld.L08_law_8
+#: Game.Levels.FifthWorld.L09_law_9
+#: Game.Levels.FifthWorld.L10_law_10
+#: Game.Levels.sixthworld.L01_law_1
+#: Game.Levels.sixthworld.L02_law_2
+#: Game.Levels.sixthworld.L03_law_3
+#: Game.Levels.sixthworld.L04_law_4
+#: Game.Levels.sixthworld.L05_law_5
+#: Game.Levels.sixthworld.L06_law_6
+#: Game.Levels.sixthworld.L07_law_7
+#: Game.Levels.sixthworld.L08_law_8
+#: Game.Levels.sixthworld.L09_law_9
+#: Game.Levels.sixthworld.L10_law_10
+#: Game.Levels.sixthworld.L11_law_11
+#: Game.Levels.sixthworld.L12_law_12
+#: Game.Levels.sixthworld.L13_law_13
+msgid "."
+msgstr ""
+
+#: Game.Levels.secondworld
+msgid "本世界会构造7个推理规则并且证明几个命题"
+msgstr ""
+
+#: Game.Levels.sixthworld.L05_law_5
+msgid "sumRange_indicator_two"
+msgstr ""
+
+#: Game.Levels.FifthWorld.L04_law_4
+msgid "在群G中，对于G中元素a，他们运算(a ^' n)^'m等于(a ^'(n*m))"
+msgstr ""
+
+#: Game.Levels.secondworld.L01_law_add
+msgid "这样便是附加律."
+msgstr ""
+
+#: Game.Levels.sixthworld
+msgid "本世界对简单图和完全图的部分定理进行证明."
+msgstr ""
+
+#: Game.Levels.FirstWorld.L14_zero_law
+msgid "零律有两种，第一个是使任意一个命题和1的合取是1，1可以变成和任意命题的合取."
+msgstr ""
+
+#. §0: `eq:(p↔q)↔((p→q)∧(q→p))`
+#. §1: `(q→p)`
+#. §2: `(p→q)∧(q→p)`
+#: Game.Doc.theo
+msgid "# 等价等值式\n"
+"### §0\n"
+"\n"
+"§1和§2可以转换，就是等价等值式。"
+msgstr ""
+
+#: Game.Levels.ForthWorld
+msgid "第四个世界是对集合论一些定理的证明构造."
+msgstr ""
+
+#: Game.Levels.secondworld.L02_sim_law
+msgid "这样便是化简律."
+msgstr ""
+
+#: Game.Levels.sixthworld.L01_law_1
+msgid "握手定理是图论的一个经典定理，这里我们将为握手定理的证明进行一\n"
+"些铺垫。我们预先定义了几个函数，其中一个便是sumrange函数，他会对列表种的每个元素应用\n"
+"传入的f函数，然后将这些返回值累加返回。List.foldl_range_add是一条辅助定理，证明两个\n"
+"函数对列表元素应用的累加和与分别计算每个函数的累加和再相加相等。"
+msgstr ""
+
+#. §0: `lem:p ∨ ¬p ↔ True`
+#. §1: `True `
+#. §2: `p ∨ ¬p`
+#. §3: `p ∨ ¬p`
+#: Game.Doc.theo
+msgid "# 排中律\n"
+"### §0\n"
+"\n"
+"排中律，可以在§1和§2之间转换,§3包含了所有，所以与1等价。"
+msgstr ""
+
+#: Game.Levels.secondworld
+msgid "Secondworld"
+msgstr ""
+
+#: Game.Levels.Forthworld.L10_law_10
+msgid "接下来证明两个集合的交的补为两个集合补的并"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L08_associative_law
+msgid "至此析取的结合律证明完毕了."
+msgstr ""
+
+#: Game.Levels.Forthworld.L06_law_6
+msgid "排中律为任意集合和他补的并为全集，矛盾律为任意集合和他补的交为空\n"
+"集，这里我们证明矛盾律"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L11_distribute_law2
+msgid "接下来证明第二部分分配律."
+msgstr ""
+
+#. §0: `De_Morgan_laws:¬(a ∨ b) ↔ ¬a ∧ ¬b`
+#: Game.Doc.theo
+msgid "# 德摩根律\n"
+"### §0\n"
+"\n"
+"应用德摩根律可以将否分配到括号中或者将否提取出来。"
+msgstr ""
+
+#: Game.Levels.thirdworld.L07_law_7
+msgid "Ax含自由变元x，而B不含x的自由出现，\n"
+"则(∃x,((A x)∨B)) ↔ ((∃ x, A x)∨B)."
+msgstr ""
+
+#. §0: `distribute_law2 :  (a∧(b∨c))↔((a∧b)∨(a∧c))`
+#. §1: `(a∧(b∨c))`
+#. §2: `((a∧b)∨(a∧c))`
+#: Game.Doc.theo
+msgid "# 分配律2\n"
+"### §0\n"
+"\n"
+"合取对析取存在分配律，即§1和§2可以互相转换"
+msgstr ""
+
+#. §0: `associative_or : ((a∨b)∨c)↔(a∨(b∨c))`
+#. §1: `(a∨b)∨c`
+#. §2: `a∨(b∨c)`
+#: Game.Doc.theo
+msgid "# 结合律（析取）\n"
+"### §0\n"
+"\n"
+"形如§1和§2等价可以转换，这就是结合律"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L15_zero_law2
+msgid "至此零律证明完毕."
+msgstr ""
+
+#: Game.Levels.secondworld.L07_trans_eq
+msgid "等价三段论，两个等价的传递."
+msgstr ""
+
+#: Game.Levels.FifthWorld.L08_law_8
+msgid "ring1"
+msgstr ""
+
+#: Game.Levels.thirdworld.L01_law_1
+msgid "apply会将证明目标替换为前提，上一步我们将目标替换成了假，而h则是∀ (x : X), A x导出假"
+msgstr ""
+
+#: Game.Levels.Forthworld.L05_law_5
+msgid "零律有两种，分别是任意集合和全集的并都是该集合，任意集合和空集\n"
+"的交都是空集这里证明第一种"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L05_eq
+msgid "对于一个等价，它的.1,.2会得出两个蕴含"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L02_communtative2
+msgid "交换律已经证明完成，接下来将对德摩根律进行证明."
+msgstr ""
+
+#: Game.Levels.FifthWorld.L10_law_10
+msgid "对于环R中的元素a,b,c，(b-'c)∘a等于b∘a-'c∘a，这里的-相当于+(-x)"
+msgstr ""
+
+#: Game.Levels.secondworld.L03_modus_ponens
+msgid "接下来是假言推理."
+msgstr ""
+
+#: Game.Levels.thirdworld.L05_law_5
+msgid "Ax含自由变元x，而B不含x的自由出现，\n"
+"则(∀x,((A x)→B)) ↔ ((∃ x, A x)→ B)."
+msgstr ""
+
+#: Game.Levels.FifthWorld.L09_law_9
+msgid "对于环R中的元素a,b，a的负元与b的∘运算结果等于a与b的∘运算结果的负元"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L17_identity_law2
+msgid "第二种同一律即是任意命题和1的析取都是该命题，任意命题可以推出任意命题和1的析取."
+msgstr ""
+
+#: Game.Levels.FirstWorld.L14_zero_law
+msgid "至此零律第一部分证明完毕."
+msgstr ""
+
+#: Game.Levels.FirstWorld.L05_eq
+msgid "等价等值式表示一个等价可以是两个蕴含的析取"
+msgstr ""
+
+#. §0: `law1 :  (¬ ∀ x, A x) ↔ (∃ x, ¬ A x)`
+#: Game.Doc.theo
+msgid "# 量词否定等值式1\n"
+"### §0\n"
+"\n"
+"设A(x)含自由出现的个体变项x，则并不是所有的X都有性质A与存在\n"
+"没有性质A的x等价，即(¬ ∀ x, A x) ↔ (∃ x, ¬ A x)。"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L12_absorption_law
+msgid "吸收律分别有合取的和析取的，一个命题合取一个范围比他小的命题即是它的本身."
+msgstr ""
+
+#: Game.Levels.secondworld.L04_modus_tollens
+msgid "拒取式"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L04_no_contradiction
+msgid "矛盾律，通过两个互斥的析取得到一个假，或者一个假可以得到任意一个命题及其补的析取."
+msgstr ""
+
+#: Game.Levels.secondworld.L08_constructive_dilemma
+msgid "这样便是普通形式的构造性二难."
+msgstr ""
+
+#: Game.Levels.thirdworld.L01_law_1
+msgid "exfalso将当前目标变成False，因为假可以导出任意命题，即矛盾证出任意"
+msgstr ""
+
+#: Game.Levels.FifthWorld.L08_law_8
+msgid "对于一个代数系统有两个二元运算，若对+构成交换群，∘构成半群，并\n"
+"且∘关于+适合分配律，那么该代数系统称为环，接下来证明几条环的性质。任意元素a与零元的\n"
+"∘运算结果均为零元"
 msgstr ""
 
 #: Game
@@ -51,30 +548,701 @@ msgid "Here you can put additional information about the game. It is accessible\
 "Use **markdown**."
 msgstr ""
 
-#: Game.Levels.DemoWorld.L01_HelloWorld
-msgid "This last message appears if the level is solved."
+#: Game.Levels.Forthworld.L09_law_9
+#: Game.Levels.Forthworld.L10_law_10
+#: Game.Levels.Forthworld.L11_law_11
+msgid "德摩根律"
 msgstr ""
 
-#: Game.Levels.DemoWorld.L01_HelloWorld
-msgid "This text is shown as first message when the level is played.\n"
-"You can insert hints in the proof below. They will appear in this side panel\n"
-"depending on the proof a user provides."
+#: Game.Levels.FifthWorld.L01_law_1
+msgid "设V=<S,∘>为代数系统，∘为二元运算，若可结合则为半群，若半群中\n"
+"存在关于该运算的单位元，则为幺半群（独异点），若任意元素a都有逆元a⁻¹则为群，记作G\n"
+"接下来会证明一些群的关于幂运算的性质，这里先证明一个元素逆的逆是他本身"
 msgstr ""
 
-#: Game.Levels.DemoWorld
-msgid "This introduction is shown before one enters level 1 of the demo world. Use markdown."
+#: Game.Levels.FifthWorld.L09_law_9
+msgid "ring2"
 msgstr ""
 
-#. §0: `«{h}»`
-#. §1: `«{g}»`
-#: Game.Levels.DemoWorld.L01_HelloWorld
-msgid "You can either start using §0 or §1."
+#. §0: `zero_law1:a ∨ True ↔ True`
+#. §1: `a ∨ True`
+#. §2: `True`
+#: Game.Doc.theo
+msgid "# 零律1\n"
+"### §0\n"
+"\n"
+"零律，可以在§1和§2之间转换。"
 msgstr ""
 
-#: Game.Levels.DemoWorld
-msgid "Demo World"
+#: Game.Levels.Forthworld.L08_law_8
+msgid "双重否定律"
+msgstr ""
+
+#: Game.Levels.Forthworld.L03_law_3
+msgid "分配律"
+msgstr ""
+
+#: Game.Levels.Forthworld.L01_law_1
+msgid "把一些事物聚集到一起就是集合，而这些事物就是集合的元素.集合有\n"
+"列元素法和谓词表示法，谓词表示法大致形式为B={x|x∈R∧x²-1=0}的形式.元素和集合\n"
+"有属于与不属于两种关系，分别记为∈,∉.集合之间也有包含和不包含的关系，记为⊆,⊈ .\n"
+"不含任何元素的集合称为空集，记作∅，若一个问题涉及的集合都是某个集合的子集，则\n"
+"该集合为全集，记作E.集合有交，并，补和对称差运算，接下来将会证明一些集合恒等式"
+msgstr ""
+
+#. §0: `pro_con_law : ((a → b) ∧ (a → ¬b)) ↔ ¬a`
+#. §1: `(a → b) ∧ (a → ¬b)`
+#. §2: `a`
+#. §3: `¬a`
+#: Game.Doc.theo
+msgid "# 归谬论\n"
+"### §0\n"
+"\n"
+"若§1成立，易知§2为假，则§3成立，反之亦然，这就是归谬论。"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L18_pro_con_law
+msgid "至此归谬论证明完毕."
+msgstr ""
+
+#: Game.Levels.secondworld.L09_constructive_dilemma_special
+msgid "构造性二难有普通和特殊两种形式，这里是特殊形式."
+msgstr ""
+
+#: Game.Levels.thirdworld.L10_law_10
+msgid "Ax含自由变元x，而B不含x的自由出现，\n"
+"则(∃x,(B→(A x))) ↔ (B→(∃x,A x))."
+msgstr ""
+
+#: Game.Levels.sixthworld.L12_law_12
+msgid "two_mul_add_mul_sub_one"
+msgstr ""
+
+#: Game.Levels.FifthWorld.L06_law_6
+msgid "在群G中，对于G中元素a，x，y，满足左右消去律，这里先证明左消去律"
+msgstr ""
+
+#: Game.Levels.Forthworld.L12_law_12
+msgid "两个元素按一定顺序组成的二元组叫有序对，形如<x,y>，对于集合A，B\n"
+"分别用他们的元素构成有序对，这些有序对的集合为A，B的笛卡尔积，记作A×B,任意集合和\n"
+"空集的笛卡尔积为空集,这里我们将符号改为×₁"
+msgstr ""
+
+#. §0: `absorb_law2:(a∧(a∨b))↔a`
+#. §1: `(a∧(a∨b))`
+#. §2: `a`
+#: Game.Doc.theo
+msgid "# 吸收律2\n"
+"### §0\n"
+"\n"
+"吸收律，可以在§1和§2之间转换。"
+msgstr ""
+
+#: Game.Levels.thirdworld.L11_law_11
+#: Game.Levels.thirdworld.L12_law_12
+msgid "量词分配等值式"
+msgstr ""
+
+#: Game.Levels.FifthWorld.L05_law_5
+msgid "pow5"
+msgstr ""
+
+#. §0: `modus_tollens : ((a→b)∧¬b)→¬a`
+#. §1: `a→b`
+#. §2: `¬b`
+#: Game.Doc.theo
+msgid "# 拒取式\n"
+"### §0\n"
+"\n"
+"已知两个命题§1和§2成立,利用拒取式可以得出¬a。"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L01_communtative
+msgid "constructor可以将等价分解"
+msgstr ""
+
+#: Game.Levels.Forthworld.L05_law_5
+msgid "零律"
+msgstr ""
+
+#: Game.Levels.Forthworld.L02_law_2
+msgid "结合律"
+msgstr ""
+
+#: Game.Levels.sixthworld.L10_law_10
+msgid "regular_graph_edge_count即我们要证明的握手定理特例。"
+msgstr ""
+
+#: Game.Levels.thirdworld.L03_law_3
+#: Game.Levels.thirdworld.L04_law_4
+#: Game.Levels.thirdworld.L05_law_5
+#: Game.Levels.thirdworld.L06_law_6
+#: Game.Levels.thirdworld.L07_law_7
+#: Game.Levels.thirdworld.L08_law_8
+#: Game.Levels.thirdworld.L09_law_9
+#: Game.Levels.thirdworld.L10_law_10
+msgid "量词辖域收缩与扩张等值式"
+msgstr ""
+
+#: Game.Levels.Forthworld.L01_law_1
+msgid "幂等律"
+msgstr ""
+
+#: Game.Levels.sixthworld.L03_law_3
+msgid "sumRange_congr证明了对每个 i，f i = g i，\n"
+"则 sumRange n f = sumRange n g。"
+msgstr ""
+
+#: GameServer.RpcHandlers
+msgid "level completed with warnings… 🎭"
+msgstr ""
+
+#: Game.Levels.FifthWorld.L07_law_7
+msgid "在群G中，对于G中元素a，x，y，满足左右消去律，接下来证明右消去律"
+msgstr ""
+
+#: Game.Levels.sixthworld.L12_law_12
+msgid "two_mul_add_mul_sub_one将证明2*n + n*(n-1) = (n+1)*n."
+msgstr ""
+
+#: Game.Levels.thirdworld.L12_law_12
+msgid "设A(x)，B(x)含自由出现的个体变项x，\n"
+"则(∃ x, ((A x) ∨ (B x))) ↔ ((∃ x, A x) ∨ (∃ x, B x))."
+msgstr ""
+
+#: Game.Levels.thirdworld.L09_law_9
+msgid "Ax含自由变元x，而B不含x的自由出现，\n"
+"则(∃x,((A x)→B)) ↔ ((∀x, A x)→ B)."
+msgstr ""
+
+#: Game.Levels.FifthWorld.L03_law_3
+msgid "在群G中，对于G中元素b，他们运算(a ^' n) ∘ (a ^' m)\n"
+"等于a ^' (n + m).这里我们定义了两个定理分别是pow_zero,pow_succ，他们会将0\n"
+"次方变成单位元，以及a ^' (n + 1) 变成 a ∘ a ^' n的形式，并且用simp标记会进行反复重写"
+msgstr ""
+
+#: Game.Levels.sixthworld.L11_law_11
+msgid "本条定理将证明完全图的最大边数为n*(n-1)/2\n"
+"two_dvd_mul_succ将证明连续两个自然数的乘可以被2整除。"
+msgstr ""
+
+#: Game.Levels.sixthworld.L06_law_6
+msgid "List.foldl_add_const"
+msgstr ""
+
+#: Game.Levels.secondworld.L01_law_add
+msgid "附加律"
+msgstr ""
+
+#. §0: `idempotent_law_or : p↔(p∨p)`
+#. §1: `p`
+#. §2: `p∨p`
+#: Game.Doc.theo
+msgid "# 幂等律（析取）\n"
+"### §0\n"
+"\n"
+"任意命题§1可以转换成§2，也可以转换回去，这就是幂等律（析取）"
+msgstr ""
+
+#: Game.Levels.sixthworld.L04_law_4
+msgid "这条辅助定理sumRange_zero'证明了当 f 恒为零时 sumRange 为 0"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L01_communtative
+msgid "exact会将当前项作为证据提交与目标匹配"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L08_associative_law
+msgid "结合律对于析取和合取都适用，这里先证明析取的结合律."
+msgstr ""
+
+#: Game.Levels.FirstWorld.L09_associative_law2
+msgid "对于合取，结合律也成立."
+msgstr ""
+
+#: Game.Levels.thirdworld.L06_law_6
+msgid "Ax含自由变元x，而B不含x的自由出现，\n"
+"则(∀x,(B→(A x))) ↔ (B→(∀x,A x))."
+msgstr ""
+
+#: Game.Levels.secondworld.L02_sim_law
+msgid "化简律，即合取可以取其中之一."
+msgstr ""
+
+#: Game.Levels.FirstWorld.L14_zero_law
+msgid "True.intro可以制造一个True"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L09_associative_law2
+msgid "至此结合律证明完成."
+msgstr ""
+
+#. §0: `constructive_dilemma : ((a→b)∧(c→d)∧(a∨c))→(b∨d)`
+#. §1: `a→b`
+#. §2: `c→d`
+#. §3: `a∨c`
+#. §4: `b∨d`
+#: Game.Doc.theo
+msgid "# 构造性二难\n"
+"### §0\n"
+"\n"
+"已知命题§1和§2成立,同时§3成立，则§4成立，这就是构造性二难。"
+msgstr ""
+
+#: Game.Levels.FifthWorld.L10_law_10
+msgid "ring3"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L03_De_Morgan_laws
+msgid "到这里德摩根律的证明完成了."
+msgstr ""
+
+#: Game.Levels.secondworld.L08_constructive_dilemma
+msgid "构造性二难"
+msgstr ""
+
+#: Game.Levels.Forthworld.L02_law_2
+msgid "集合的交和并也满足结合律"
+msgstr ""
+
+#: Game.Levels.sixthworld
+msgid "sixth worlf"
+msgstr ""
+
+#. §0: `sim_law : a∧b→a`
+#. §1: `a∧b`
+#: Game.Doc.theo
+msgid "# 化简律\n"
+"### §0\n"
+"\n"
+"已知一个命题§1成立,利用化简律可以提取出a。"
+msgstr ""
+
+#. §0: `associative_and : ((a∧b)∧c)↔((a∧b)∧c)`
+#. §1: `(a∧b)∧c`
+#. §2: `(a∧b)∧c`
+#: Game.Doc.theo
+msgid "# 结合律（合取）\n"
+"### §0\n"
+"\n"
+"形如§1和§2等价可以转换，这就是结合律"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L11_distribute_law2
+msgid "至此分配律证明完毕."
+msgstr ""
+
+#: Game.Levels.secondworld.L05_disjunctive_syllogism
+msgid "接下来是析取三段论的证明."
+msgstr ""
+
+#: Game.Levels.ThirdWorld
+msgid "thirdworld"
+msgstr ""
+
+#: Game.Levels.secondworld.L05_disjunctive_syllogism
+msgid "析取三段论"
+msgstr ""
+
+#: Game.Levels.Forthworld.L12_law_12
+#: Game.Levels.Forthworld.L13_law_13
+msgid "笛卡尔积"
+msgstr ""
+
+#: Game.Levels.sixthworld.L07_law_7
+msgid "这里将对握手定理进行证明。"
+msgstr ""
+
+#: Game.Levels.FifthWorld.L06_law_6
+msgid "mul_left_cancel"
+msgstr ""
+
+#. §0: `double_neg_law : a ↔ ¬¬a`
+#. §1: `a`
+#. §2: `¬¬a`
+#: Game.Doc.theo
+msgid "# 双重否定律\n"
+"### §0\n"
+"\n"
+"任意命题§1与它的双重否定命题§2等价，这就是双重否定律"
+msgstr ""
+
+#. §0: `identity_law1:(a∨False)↔a`
+#. §1: ` a `
+#. §2: `a∨False`
+#: Game.Doc.theo
+msgid "# 同一律1\n"
+"### §0\n"
+"\n"
+"同一律1，可以在§1和§2之间转换。"
+msgstr ""
+
+#: Game.Levels.sixthworld.L08_law_8
+msgid "isOddDegree是预先定义的函数，表示该点的度数为奇数。\n"
+"接下来是证明握手定理的特例，若每个节点的度数都为k，则K与顶点度数的积等于边数的两倍\n"
+"首先证明sumRange_mul_const，和之前实现的辅助定理类似，不同的是该定理是将乘从固定\n"
+"值sumrange种提取出来。"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L01_communtative
+msgid "rcases可以把两个命题的析取，合取拆分"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L02_communtative2
+msgid "Or.inl Or.inr可以将已经有的命题自动匹配一个目标"
+msgstr ""
+
+#: Game.Levels.sixthworld.L02_law_2
+msgid "sumRange_add将第一条辅助定理的形式进行转换。"
+msgstr ""
+
+#: Game.Levels.FifthWorld.L07_law_7
+msgid "mul_right_cancel"
+msgstr ""
+
+#: Game.Levels.FifthWorld.L05_law_5
+msgid "在群G中，对于G中元素a,b，他们运算可以交换，那么群为交换群或者叫阿贝尔群，\n"
+"对于阿贝尔群，它满足(a∘b)^'n=(a ^'n)∘(b^'n)"
+msgstr ""
+
+#: Game.Levels.Forthworld.L07_law_7
+msgid "集合的交和并也满足吸收律,这里我们证明并对交的吸收律"
+msgstr ""
+
+#: Game.Levels.Forthworld.L07_law_7
+msgid "吸收律"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L13_absorption_law2
+msgid "这里开始吸收律第二部分，一个命题析取比他范围大的命题即是命题本身."
+msgstr ""
+
+#: Game.Levels.ForthWorld
+msgid "forthworld"
+msgstr ""
+
+#: Game.Levels.secondworld.L09_constructive_dilemma_special
+msgid "构造性二难(特殊)"
+msgstr ""
+
+#: Game.Levels.Forthworld.L09_law_9
+msgid "德摩根律有六种，分别是补对交和并的分配律，空集和全集的转换，\n"
+"以及交和并的补，这里我们先证明分配律"
+msgstr ""
+
+#. §0: `destructive_dilemma :  ((a→b)∧(c→d)∧(¬b∨¬d))→(¬a∨¬c)`
+#. §1: `a→b`
+#. §2: `c→d`
+#. §3: `¬b∨¬d`
+#. §4: `¬a∨¬c`
+#: Game.Doc.theo
+msgid "# 破坏性二难\n"
+"### §0\n"
+"\n"
+"已知命题§1和§2成立,同时§3成立，则§4成立，，这就是破坏性二难。"
+msgstr ""
+
+#: Game.Levels.FifthWorld.L01_law_1
+msgid "pow1"
+msgstr ""
+
+#: Game.Levels.secondworld.L03_modus_ponens
+msgid "假言推理"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L05_eq
+msgid "这里等价等值式构造完成了."
+msgstr ""
+
+#: Game.Levels.Forthworld.L04_law_4
+msgid "同一律有两种，分别是空集和任意集合的并都是该集合，\n"
+"任意集合和全集的交都是该集合，这里证明第一种"
+msgstr ""
+
+#: Game.Levels.FifthWorld.L04_law_4
+msgid "pow4"
+msgstr ""
+
+#: Game.Levels.sixthworld.L09_law_9
+msgid "odd_degree_count_even"
+msgstr ""
+
+#: Game.Levels.sixthworld.L03_law_3
+msgid "sumRange_congr"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L16_identity_law
+msgid "至此第一种同一律证明完毕."
+msgstr ""
+
+#: Game.Levels.Forthworld.L01_law_1
+msgid "x∈a∩a的本质是x∈a∧x∈a"
+msgstr ""
+
+#: Game.Levels.thirdworld.L01_law_1
+msgid "by_cases会生成¬p和p两种假设，这里可以构造∃ x, ¬ A x"
+msgstr ""
+
+#: Game.Levels.thirdworld.L01_law_1
+msgid "设A(x)含自由出现的个体变项x，则并不是所有的X都有性质A与存在\n"
+"没有性质A的x等价，即(¬ ∀ x, A x) ↔ (∃ x, ¬ A x)."
+msgstr ""
+
+#: Game.Levels.FifthWorld.L02_law_2
+msgid "pow2"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L04_no_contradiction
+msgid "矛盾律证明完毕."
+msgstr ""
+
+#: Game.Levels.FirstWorld.L10_distribute_law
+msgid "至此第一部分分配律证明完毕了."
+msgstr ""
+
+#: Game.Levels.secondworld.L05_disjunctive_syllogism
+msgid "这样便是析取三段论."
+msgstr ""
+
+#: Game.Levels.FirstWorld.L03_De_Morgan_laws
+msgid "德摩根律，即¬(a ∨ b) ↔ ¬a ∧ ¬b，接下来要对该式进行证明."
+msgstr ""
+
+#: Game.Levels.Forthworld.L01_law_1
+msgid "setext会把集合的等于变成谓词形式的等价"
+msgstr ""
+
+#: Game.Levels.secondworld.L01_law_add
+msgid "接下来要证明几条推理规则，这里要证明附加律."
+msgstr ""
+
+#: Game.Levels.thirdworld.L08_law_8
+msgid "Ax含自由变元x，而B不含x的自由出现，\n"
+"则(∃x,((A x)∧B)) ↔ ((∃ x, A x)∧B)."
+msgstr ""
+
+#: Game.Levels.thirdworld.L01_law_1
+msgid "量词否定等值式"
+msgstr ""
+
+#: Game.Levels.sixthworld.L06_law_6
+msgid "List.foldl_add_const将证明累加的初始值可以拆分为初始值与0的和。"
+msgstr ""
+
+#. §0: `Imp_eq_law:(a → b) ↔ (¬a ∨ b)`
+#. §1: `(a → b)`
+#. §2: `(¬a ∨ b)`
+#: Game.Doc.theo
+msgid "# 蕴含等值式\n"
+"### §0\n"
+"\n"
+"§1和§2可以转换，就是蕴含等值式。"
+msgstr ""
+
+#: Game.Levels.Forthworld.L08_law_8
+msgid "双重否定律即是集合两次补即他本身"
+msgstr ""
+
+#. §0: `trans_eq : ((a ↔ b) ∧ (b ↔ c))→(a ↔ c)`
+#. §1: `a ↔ b`
+#. §2: `b ↔ c`
+#. §3: `a ↔ c`
+#: Game.Doc.theo
+msgid "# 等价三段论\n"
+"### §0\n"
+"\n"
+"已知两个命题§1和§2成立,则§3也成立，这就是等价三段论。"
+msgstr ""
+
+#: Game.Levels.Forthworld.L11_law_11
+msgid "接下来证明空集的补为全集"
 msgstr ""
 
 #: Game
 msgid "Game Template"
+msgstr ""
+
+#. §0: `communtative_and :  p ∨ q ↔ q ∨ p`
+#. §1: `p ∨ q`
+#. §2: `q ∨ p`
+#: Game.Doc.theo
+msgid "# 交换律（析取）\n"
+"### §0\n"
+"\n"
+"形如§1和§2等价可以转换，这就是交换律"
+msgstr ""
+
+#: Game.Levels.secondworld.L06_hypothetical_syllogism
+msgid "接下来要证明假言三段论，相当与蕴含的传递."
+msgstr ""
+
+#: Game.Levels.FirstWorld.L01_communtative
+msgid "首先证明析取的交换律，可以使用intro拆分为两个蕴含来证明，⟨a,b⟩会将a,b变成a∧b的样子."
+msgstr ""
+
+#: GameServer.RpcHandlers
+msgid "level completed! 🎉"
+msgstr ""
+
+#. §0: `law_add : a→a∨b`
+#. §1: `a`
+#: Game.Doc.theo
+msgid "# 附加律\n"
+"### §0\n"
+"\n"
+"已知一个命题§1,利用附加律可以制造出和任意其它命题的析取。"
+msgstr ""
+
+#: Game.Levels.thirdworld.L02_law_2
+msgid "量词否定等值式2"
+msgstr ""
+
+#: Game.Levels.sixthworld.L13_law_13
+msgid "complete_graph_edge_count"
+msgstr ""
+
+#: Game.Levels.thirdworld.L03_law_3
+msgid "left会将析取的证明变成证明左分支"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L16_identity_law
+msgid "同一律和零律形式相反，第一种是任意命题和假合取会得到该命题，任意命题可以表现为和假的合取."
+msgstr ""
+
+#: Game.Levels.FirstWorld.L07_idempotent_law2
+msgid "到这里完成了幂等律证明."
+msgstr ""
+
+#: Game.Levels.FirstWorld.L06_idempotent_law
+msgid "合取的幂等律构造完成了."
+msgstr ""
+
+#: Game.Levels.sixthworld.L13_law_13
+msgid "通过应用之前的两条引理，这里将证明完全图的度数为(n-1)*n/2."
+msgstr ""
+
+#: Game.Levels.FirstWorld.L06_idempotent_law
+msgid "幂等律，即一个命题可以转换成同一命题的合取."
+msgstr ""
+
+#: Game.Levels.secondworld.L04_modus_tollens
+msgid "这样便是拒取式."
+msgstr ""
+
+#: Game.Levels.secondworld.L10_destructive_dilemma2
+msgid "这样便是破坏性二难."
+msgstr ""
+
+#. §0: `communtative_and :  p ∧ q ↔ q ∧ p`
+#. §1: `p ∧ q`
+#. §2: `q ∧ p`
+#: Game.Doc.theo
+msgid "# 交换律（合取）\n"
+"### §0\n"
+"\n"
+"形如§1和§2等价可以转换，这就是交换律"
+msgstr ""
+
+#. §0: `modus_ponens : ((a→b)∧a)→b`
+#. §1: `a→b`
+#. §2: `a`
+#: Game.Doc.theo
+msgid "# 假言推理\n"
+"### §0\n"
+"\n"
+"已知两个命题§1和§2成立,利用假言推理可以得出b。"
+msgstr ""
+
+#: Game
+msgid "一个基于Lean 4的离散数学游戏"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L02_communtative2
+msgid "合取的交换律和析取的类似，将等价拆分然后分别证明."
+msgstr ""
+
+#: Game.Levels.sixthworld.L02_law_2
+msgid "sumRange_add"
+msgstr ""
+
+#. §0: `disjunctive_syllogism : ((a∨b)∧¬b)→a`
+#. §1: `a∨b`
+#. §2: `¬b`
+#. §3: `a∨b`
+#. §4: `¬b`
+#. §5: `a`
+#: Game.Doc.theo
+msgid "# 析取三段论\n"
+"### §0\n"
+"\n"
+"已知两个命题§1和§2成立,§3成立代表其中一个为真，而§4成立易得出§5为真，\n"
+"利用析取三段论可以得出¬a。"
+msgstr ""
+
+#: Game.Levels.secondworld.L02_sim_law
+msgid "化简律"
+msgstr ""
+
+#: Game.Levels.secondworld.L09_constructive_dilemma_special
+msgid "这样便是特殊形式的构造性二难."
+msgstr ""
+
+#: Game.Levels.sixthworld.L11_law_11
+msgid "two_dvd_mul_succ"
+msgstr ""
+
+#: Game.Levels.sixthworld.L01_law_1
+msgid "List.foldl_range_add"
+msgstr ""
+
+#: Game.Levels.sixthworld.L05_law_5
+msgid "sumRange_indicator_two将对握手定理的证明一部分进行化简，即\n"
+"sumRange n (fun w => if w = u ∨ w = v then 1 else 0) = 2。"
+msgstr ""
+
+#: Game.Levels.sixthworld.L07_law_7
+msgid "handshaking_lemma"
+msgstr ""
+
+#: Game.Levels.FirstWorld.L04_no_contradiction
+msgid "False.elim在给定一个假的情况下，可以构造任意命题"
+msgstr ""
+
+#: Game.Levels.secondworld.L10_destructive_dilemma2
+msgid "下面是最后一条推理规则，破坏性二难的证明."
+msgstr ""
+
+#: Game.Levels.FifthWorld
+msgid "本世界对群和环的部分性质定理进行了证明."
+msgstr ""
+
+#: Game.Levels.FirstWorld.L12_absorption_law
+msgid "至此第一部分吸收律证明完毕."
+msgstr ""
+
+#: Game.Levels.secondworld.L08_constructive_dilemma
+msgid "构造性二难有普通和特殊两种形式，这里是普通形式."
+msgstr ""
+
+#: Game.Levels.thirdworld.L02_law_2
+msgid "设A(x)含自由出现的个体变项x，则并不存在性质A的x与所有x都\n"
+"没有性质A等价，即(¬ ∃ x, A x) ↔ (∀ x, ¬ A x)."
+msgstr ""
+
+#. §0: `zero_law2:a ∨ True ↔ True`
+#. §1: ` a ∧  False`
+#. §2: `False`
+#: Game.Doc.theo
+msgid "# 零律2\n"
+"### §0\n"
+"\n"
+"零律，可以在§1和§2之间转换。"
+msgstr ""
+
+#. §0: `lem:p∧¬p↔False`
+#: Game.Doc.theo
+msgid "# 矛盾律\n"
+"### §0\n"
+"\n"
+"矛盾律，即一个命题和它的否命题的合取是假，反之假也可以推出任意命题和它否命题的合取。"
 msgstr ""

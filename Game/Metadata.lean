@@ -1,4 +1,8 @@
 import GameServer
+import Game.Doc.theo
+import Game.Doc.Set
+import Game.Doc.group_ring
+import Game.Doc.graph
 -- import Mathlib.Tactic.Common
 
 /-! Use this file to add things that should be available in all levels.

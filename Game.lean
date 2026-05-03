@@ -1,11 +1,28 @@
-import Game.Levels.DemoWorld
-
+import GameServer.Commands
+import Game.Levels.FirstWorld
+import Game.Levels.secondworld
+import Game.Levels.ThirdWorld
+import Game.Levels.ForthWorld
+import Game.Levels.FifthWorld
+import Game.Levels.sixthworld
 -- Here's what we'll put on the title screen
-Title "Hello World Game"
+
+
+--Dependency Firstworld→Secondworld
+--Dependency Secondworld→thirdworld
+--Dependency thirdworld→forthworld
+--Dependency forthworld→fifthworld
+
+
+Title "一个基于Lean 4的离散数学游戏"
 Introduction
 "
-This text appears on the starting page where one selects the world/level to play.
-You can use **markdown**.
+欢迎来到离散数学游戏的世界，在本世界你将通过对不同世界的闯关逐渐习得离散数学
+相关的知识，大致范围涵盖了命题，一阶逻辑，集合论，代数结构，图论等部分的重要
+定理。本世界使用Lean4实现，在形式化证明的过程中你将加强对Lean的掌握并且加深
+对离散数学知识的掌握。
+本世界分为三种模式，分别是闯关模式，全关卡模式，全关卡全策略模式，你可以自由
+挑选游玩。
 "
 
 Info "
