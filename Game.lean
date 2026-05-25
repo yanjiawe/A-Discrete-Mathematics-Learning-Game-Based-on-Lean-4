@@ -1,10 +1,10 @@
 import GameServer.Commands
-import Game.Levels.FirstWorld
-import Game.Levels.secondworld
-import Game.Levels.ThirdWorld
-import Game.Levels.ForthWorld
-import Game.Levels.FifthWorld
-import Game.Levels.sixthworld
+import Game.Levels.Propositional_Logic
+import Game.Levels.Inference_Rules
+import Game.Levels.Predicate_Logic
+import Game.Levels.Set_Theory
+import Game.Levels.Algebra_Structure
+import Game.Levels.Graph_Theory
 -- Here's what we'll put on the title screen
 
 

@@ -1,0 +1,28 @@
+import Game.Levels.Propositional_Logic.L01_communtative
+import Game.Levels.Propositional_Logic.L02_communtative2
+import Game.Levels.Propositional_Logic.L03_De_Morgan_laws
+import Game.Levels.Propositional_Logic.L04_no_contradiction
+import Game.Levels.Propositional_Logic.L05_eq
+import Game.Levels.Propositional_Logic.L06_idempotent_law
+import Game.Levels.Propositional_Logic.L07_idempotent_law2
+import Game.Levels.Propositional_Logic.L08_associative_law
+import Game.Levels.Propositional_Logic.L09_associative_law2
+import Game.Levels.Propositional_Logic.L10_distribute_law
+import Game.Levels.Propositional_Logic.L11_distribute_law2
+import Game.Levels.Propositional_Logic.L12_absorption_law
+import Game.Levels.Propositional_Logic.L13_absorption_law2
+import Game.Levels.Propositional_Logic.L14_zero_law
+import Game.Levels.Propositional_Logic.L15_zero_law2
+import Game.Levels.Propositional_Logic.L16_identity_law
+import Game.Levels.Propositional_Logic.L17_identity_law2
+import Game.Levels.Propositional_Logic.L18_pro_con_law
+
+
+
+
+World "Propositional_Logic"
+Title "Propositional_Logic"
+
+Introduction "
+第一个世界是对等价等值式的证明构造.
+"
